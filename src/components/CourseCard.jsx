@@ -2,7 +2,7 @@ import { Button, Card, CardBody, CardFooter, Image, Stack, Text } from "@chakra-
 
 const Course = () => {
   return (
-    <Card width={"21%"} marginLeft={"2%"} marginRight={"2%"}>
+    <Card width={{ base: "90%", sm: "46%", md: "21%" }} marginLeft={{ base: "5%", sm: "2%" }} marginRight={"2%"}>
       <CardBody>
         <Image src="/logo192.png" width={"100%"} />
         <Stack mt={3} spacing={3}>
